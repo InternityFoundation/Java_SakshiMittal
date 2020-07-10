@@ -1,0 +1,19 @@
+class Shape
+{
+	public void shape()
+		{
+			System.out.print("I am rectangle");
+		}
+}
+class NewShape extends Shape
+{
+  public static void main(String args[])
+  {
+    public void shape()
+	{
+	   System.out.print("I am circle");
+	} 
+	Shape s1 = new Shape();
+	s1.shape();
+  }
+}
