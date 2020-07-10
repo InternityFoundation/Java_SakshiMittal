@@ -1,2 +1,3 @@
-# Summer Internship Internity Foundation 
+# Internity Foundation
+## Summer Internship 2020  
 ### Practical implementations
