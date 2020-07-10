@@ -1,0 +1,15 @@
+import java.util.*; 
+  
+class SortUsingStreamApi{ 
+  
+     
+    public static void main(String[] args) 
+    { 
+   
+        List<Integer> list = Arrays.asList(23, 18, 90, 205, 40); 
+  
+        System.out.println("The sorted stream is : "); 
+  
+        list.stream().sorted().forEach(System.out::println); 
+    } 
+} 
