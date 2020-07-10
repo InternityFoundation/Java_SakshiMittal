@@ -1,0 +1,14 @@
+import java.util.*; 
+import java.util.stream.Stream; 
+  
+class FlatMapImplementation{ 
+   
+    public static void main(String[] args) 
+    { 
+        List<String> list = Arrays.asList("9.2", "5.5", "8.9", 
+                                          "9", "4.4"); 
+   
+        list.stream().flatMap(num -> Stream.of(num)). 
+                         forEach(System.out::println); 
+    } 
+} 
