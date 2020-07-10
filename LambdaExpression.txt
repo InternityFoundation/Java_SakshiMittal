@@ -1,0 +1,21 @@
+interface LambdaInterface 
+{ 
+    
+    void abstractFun(int x); 
+  
+     
+    default void lambFun() 
+    { 
+       System.out.println("This is a lambda expression example"); 
+    } 
+} 
+  
+class LambdaExpression
+{ 
+    public static void main(String args[]) 
+    { 
+                LambdaInterface fobj = (int x)->System.out.println(9*x); 
+   
+        fobj.abstractFun(8); 
+    } 
+} 
